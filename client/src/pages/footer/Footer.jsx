@@ -1,7 +1,5 @@
 import { Box, Center, Flex, Grid, Icon, Link, Text } from "@chakra-ui/react";
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { MdOutlinePersonPin } from 'react-icons/md';
-import { FcLike } from "react-icons/fc";
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { IconLink } from "../../components/footer/IconLink";
 
 export const Footer = () => {
@@ -10,7 +8,7 @@ export const Footer = () => {
         <Box h={'300px'} bg={'black'} color={'white'} mt={'40px'}>
 
             <Center h={'80px'}>
-                <Text className="typeWritertheme">Made with <Icon as={FcLike} /> by Mohit Sehrawat</Text>
+                <Text className="typeWritertheme">Samrat Phuyal</Text>
             </Center>
 
             <Grid
@@ -58,16 +56,16 @@ export const Footer = () => {
                     mr={['0px', '30px', '80px', '80px', '80px']}
                 >
                     <IconLink
-                        icon={MdOutlinePersonPin}
-                        link={"https://mohit-portfolio.vercel.app/"}
-                    />
-                    <IconLink
                         icon={FaGithub}
-                        link={"https://github.com/m-sehrawat/"}
+                        link={"https://github.com/Yakuuuuuu/"}
                     />
                     <IconLink
                         icon={FaLinkedin}
-                        link={"https://www.linkedin.com/in/mohitsehrawat/"}
+                        link={"https://www.linkedin.com/in/samrat-samrartt-853887366/"}
+                    />
+                    <IconLink
+                        icon={FaInstagram}
+                        link={"https://www.instagram.com/y4k_u/"}
                     />
                 </Flex>
 
